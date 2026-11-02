@@ -1,15 +1,15 @@
-   # Personal data – never commit it
-   Context/CV/*
-   !Context/CV/README.txt
-   Context/LinkedIn_export/*
-   !Context/LinkedIn_export/README.txt
-   Interviews/
-   *.xlsx
-   ~$*
-   .~lock*
+# Personal data – never commit it
+Context/CV/*
+!Context/CV/README.txt
+Context/LinkedIn_export/*
+!Context/LinkedIn_export/README.txt
+Interviews/
+*.xlsx
+~$*
+.~lock*
 
-   # If you keep your own filled-in copy in a repo, make that repo PRIVATE:
-   # About_Me.md, Target.md, Lessons_learned.md and LOGBOOK.md will contain personal information.
+# If you keep your own filled-in copy in a repo, make that repo PRIVATE:
+# About_Me.md, Target.md, Lessons_learned.md and LOGBOOK.md will contain personal information.
 
-   __pycache__/
-   .DS_Store
+__pycache__/
+.DS_Store
