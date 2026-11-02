@@ -132,8 +132,4 @@ Tips:
 - **Links pointing to the wrong job after sorting:** the skill tells the agent to reset every link after it re-sorts rows. If you see this happen, ask the agent to "re-check the hyperlinks in possible_jobs and job_tracker".
 - **Privacy:** `.gitignore` keeps your CV, LinkedIn export, interviews and the workbook out of git. If you keep your own filled-in copy in a repository, make that repository **private**.
 
----
 
-## Credits
-
-Built from an AI agent used for a real job search in 2026. Feel free to adapt it and share it.
