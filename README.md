@@ -127,7 +127,7 @@ Tips:
 
 ## Good to know
 
-- **LinkedIn:** the search uses LinkedIn's public job-search pages from a browser tab where you are signed in, slowly and read-only. Automated access may go against LinkedIn's User Agreement, so you use it at your own risk. Keep the volume reasonable: the skill already tells the agent to go slowly and to stop when LinkedIn rate-limits it.
+
 - **Charts disappearing / dates changing:** the Python library that edits the workbook drops charts and cached formula results when it saves. That is why the agent runs `freeze_dates.py` before saving and `build_analysis.py` after saving. If charts are missing, ask the agent to run `build_analysis.py`.
 - **Links pointing to the wrong job after sorting:** the skill tells the agent to reset every link after it re-sorts rows. If you see this happen, ask the agent to "re-check the hyperlinks in possible_jobs and job_tracker".
 - **Privacy:** `.gitignore` keeps your CV, LinkedIn export, interviews and the workbook out of git. If you keep your own filled-in copy in a repository, make that repository **private**.
